@@ -21,9 +21,9 @@ params:
   # preloader: false
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
-    link: /
-    # Default width/height. Uncomment if you need to change
+    image: logos./fresh.svg
+    link: ./
+    # Default width./height. Uncomment if you need to change
     # width: 112
     # height: 28
   font:
@@ -38,7 +38,7 @@ params:
     buttontext: Get started
     # Where the main hero button links to
     buttonlink: "#"
-    # Hero image (from static/images/___)
+    # Hero image (from static./images./___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
@@ -50,21 +50,21 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
-    url: /
+    url: ./
   - title: Pricing
-    url: /
+    url: ./
   - title: Dropdown
     sublinks:
     - title: Dropdown item
-      url: /
+      url: ./
     - title: Dropdown item
-      url: /
+      url: ./
     - title: Dropdown item
-      url: /
+      url: ./
   - title: Log in
-    url: /
+    url: ./
   - title: Sign up
-    url: /
+    url: ./
     button: true
   sidebar:
     # Logo (from /images/logos/___.svg)
@@ -74,32 +74,32 @@ params:
       icon: user
       links:
       - text: Profile
-        url: /
+        url: ./
       - text: Account
-        url: /
+        url: ./
       - text: Settings
-        url: /
+        url: ./
     - title: Messages
       icon: envelope
       links:
       - text: Inbox
-        url: /
+        url: ./
       - text: Compose
-        url: /
+        url: ./
     - title: Images
       icon: image
       links:
       - text: Library
-        url: /
+        url: ./
       - text: Upload
-        url: /
+        url: ./
     - title: Settings
       icon: cog
       links:
       - text: User settings
-        url: /
+        url: ./
       - text: App settings
-        url: /
+        url: ./
   section1:
     title: Great power comes
     subtitle: with great responsibility
@@ -107,17 +107,17 @@ params:
     - title: App builder
       icon: mouse-globe
       text: This is some explanatory text that is on two rows
-      url: /
+      url: ./
       buttonText: Free trial
     - title: Cloud integration
       icon: laptop-cloud
       text: This is some explanatory text that is on two rows
-      url: /
+      url: ./
       buttonText: Get started
     - title: Add-ons & plugins
       icon: plug-cloud
       text: This is some explanatory text that is on two rows
-      url: /
+      url: ./
       buttonText: Get started
   section2:
     title: You're here because you want the best
@@ -180,30 +180,30 @@ params:
         title: "Product"
         links:
         - text: Discover features
-          link: /
+          link: ./
         - text: Why choose our product?
-          link: /
+          link: ./
         - text: Compare features
-          link: /
+          link: ../
         - text: Our roadmap
-          link: /
+          link: ./
         - text: AGB
-          link: /agb
+          link: ./agb
       column2:
         title: "Docs"
         links:
         - text: Get started
-          link: /
+          link: ./
         - text: User guides
-          link: /
+          link: ./
         - text: Admin guide
-          link: /
+          link: ./
         - text: Developers
-          link: /
+          link: ./
       column3:
         title: "Blog"
         links:
         - text: Latest news
-          link: /blog/first
+          link: ./blog/first
         - text: Tech articles
-          link: /blog/second
+          link: ./blog/second
