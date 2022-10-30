@@ -1,5 +1,5 @@
-canonifyURL: true
-relativeURL: true
+canonifyURLs: true
+relativeURLs: true
 baseURL: https://jay-gurjargour.github.io/qrcode-hugo/
 languageCode: en-us
 title: Hugo Fresh Theme
