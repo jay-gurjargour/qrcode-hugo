@@ -1,6 +1,6 @@
 canonifyURL: true
 relativeURL: true
-baseURL: http://something-fresh.org/
+baseURL: https://jay-gurjargour.github.io/qrcode-hugo/
 languageCode: en-us
 title: Hugo Fresh Theme
 theme: hugo-fresh
