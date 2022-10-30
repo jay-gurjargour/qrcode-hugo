@@ -158,7 +158,7 @@ params:
   section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: ./images/logos/fresh-white-alt.svg
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
@@ -184,7 +184,7 @@ params:
         - text: Why choose our product?
           link: ./
         - text: Compare features
-          link: ../
+          link: ./
         - text: Our roadmap
           link: ./
         - text: AGB
